@@ -55,7 +55,7 @@ console.log(typeof(str13));      // string
 
 //<------------------------------------------->//
 
-//Methods in strings
+/*Methods in strings*/
 
 let message = "Hello coders";
 
@@ -108,3 +108,25 @@ console.log(message12);
 
 //<------------------------------------------->//
 
+/*Boolean Datatype*/
+
+let isSleeping = true;
+let isRunning = false;
+
+if (isSleeping){
+    console.log("He is Sleeping");
+}
+
+else{
+    console.log("He is Running");
+}
+/* Output: He is Sleeping */
+//<------------------------------------------->//
+
+let x1 = 25;
+let y1 = 30;
+
+let isGreater = x1 > y1;
+console.log(isGreater); // false
+
+//<------------------------------------------->//
