@@ -43,3 +43,68 @@ let finalSentence = string1 + " and " + string2 + "!";
 console.log(finalSentence); // 
 
 //<------------------------------------------->//
+
+let str11 =  "Namaste";
+console.log(typeof(str11));      // string
+
+let str12 = 'Namaste';
+console.log(typeof(str12));      // string
+
+let str13 = `Namaste`;
+console.log(typeof(str13));      // string
+
+//<------------------------------------------->//
+
+//Methods in strings
+
+let message = "Hello coders";
+
+let messageLength = message.length;
+console.log(messageLength);        // 12
+//<------------------------------------------->//
+let message2 = "Hello coders";
+
+let upperCaseMessage = message2.toUpperCase();
+console.log(upperCaseMessage);    // HELLO CODERS
+
+let lowerCaseMessage = message2.toLowerCase();
+console.log(lowerCaseMessage);    // hello coders
+//<------------------------------------------->//
+
+let message3 = "Hello coders";
+
+let substr1 = message3.substring(2, 8);
+console.log(substr1);          // llo co
+
+let substr2 = message3.substring(3);
+console.log(substr2);         // lo coders
+
+//<------------------------------------------->//
+
+let message4 = "Once upon a time";
+
+let splittedArray = message4.split(" ");
+
+console.log(splittedArray);
+
+/*
+Output
+[ 'Once', 'upon', 'a', 'time' ]
+*/
+
+//<------------------------------------------->//
+
+let array = ["India", "is", "the", "best"];
+
+let message11 = array.join(" ");
+console.log(message11);
+
+//Output : India is the best
+
+let message12 = array.join();
+console.log(message12);
+
+//Output : India,is,the,best
+
+//<------------------------------------------->//
+
