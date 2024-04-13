@@ -130,3 +130,65 @@ let isGreater = x1 > y1;
 console.log(isGreater); // false
 
 //<------------------------------------------->//
+
+/* Undefined */
+
+let name;
+
+console.log(typeof(name)); //undefined
+
+let marks;;
+
+console.log(typeof(marks)) //undefined
+
+
+
+//<------------------------------------------->//
+
+/* Null */
+
+let life = null;
+
+console.log(typeof(life)); //object
+
+//<------------------------------------------->//
+
+/* String methods */
+
+//length
+
+let name1 = "Rakesh Bestha";
+
+let strLength = name1.length;
+console.log(strLength); //13
+
+//uppercase
+
+let strUpper = name1.toUpperCase();
+console.log(strUpper); // RAKESH BESTHA
+
+//lowercase
+let strLower = name1.toLowerCase();
+console.log(strLower); //rakesh bestha
+
+//split
+let strSplit = name1.split(" ");
+console.log(strSplit); // [ 'Rakesh', 'Bestha' ]
+
+//join
+
+let array1 = ["Rakesh", "is", "Learning", "Webdevelopment"];
+let joinArray = array1.join(" ");
+console.log(joinArray); // Rakesh is Learning Webdevelopment
+let joinArray1 = array1.join();
+console.log(joinArray1); // Rakesh,is,Learning,Webdevelopment
+
+
+//subString(startingindex,endingIndex)
+
+let subStr1 = name1.substring(4,10);
+console.log(subStr1); //sh Bes
+
+console.log(name1.substring(2,11));  // kesh Best
+
+console.log(name1.substring(5)) // h Bestha
