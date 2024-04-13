@@ -37,3 +37,23 @@ console.log(a1 /= 5); //a1 = 2.8
 
 //<------------------------------------------------>
 
+/* comparision operator */ //it gives 'true/fase' only //
+
+let str = "5";
+
+let num = 5;
+
+console.log(str == num); // looseEquality "true"
+//here only the value is evaluated
+
+console.log(str === num); // strictEquality "false"
+//here only both the value and datatype is evaluated
+
+console.log(10 < 5); //false
+console.log(10 > 5); //true
+console.log(10 >= 5); //true
+console.log(10 <= 5); //false
+console.log(4 == 5); //false
+console.log(4 != 5); //true
+
+//<------------------------------------------------>
