@@ -29,6 +29,14 @@ else{
     console.log("Fail")
 }
 
+
+let job = true;
+if (job){
+    console.log("You have a Job");
+}
+else{
+    console.log("You don't have Job")
+}
 //<---------------------------------------------------->\
 
 /* nested if statement */
@@ -99,6 +107,6 @@ switch (name1){
     case "Lokesh" : console.log("IT-Employee");
     break;
     default : console.log("No One");
-    
 }
+
 //<---------------------------------------------------->
