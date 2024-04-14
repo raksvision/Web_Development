@@ -88,4 +88,17 @@ switch(num1){
     default : console.log("None");
 }
 
+let name1 = "Lokesh"
+switch (name1){
+    case "Rakesh" : console.log("Dancer");
+    break;
+    case "Rajesh" : console.log("Athelet");
+    break;
+    case "Manoj" : console.log("CISF");
+    break;
+    case "Lokesh" : console.log("IT-Employee");
+    break;
+    default : console.log("No One");
+    
+}
 //<---------------------------------------------------->
