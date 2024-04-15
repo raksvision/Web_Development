@@ -123,9 +123,9 @@ console.log(3 ^ 1); // 2
 
 //leftShift (<<) *multiply no.of times with '2'*
 
-console.log(5 << 1); // 10 (5*2)
-console.log(7 << 3); // 56 (7*2*2*2)
-console.log(1 << 2); //4 (1*2*2)
+console.log(5 << 1); // 10 (5*2**1)
+console.log(7 << 3); // 56 (7*2**3)
+console.log(1 << 2); //4 (1*2**2)
 
 //rightShift (>>) *divide no.of times with '2'*
 
