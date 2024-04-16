@@ -62,3 +62,31 @@ while(i<=5){
 //Output: 1,2,3,4,5
 
 //<------------------------->
+//break in while
+//from above code the value of i=6, so wee consider those values
+console.log("<--->");
+while(i<=10){
+    if(i==8)
+        break;
+    else    
+        console.log(i);
+    i++;
+}// Output: 6,7
+
+//<------------------------->
+//continue in while
+console.log("<--->");
+
+let a = 1;
+while(a<=5){
+    if (a==3){
+        a++; //if we dont add this it will iterate at a=3 infinitly
+        continue;
+    }
+    else{
+        console.log(a);
+    }
+    a++;
+}
+
+//<--------------------->
