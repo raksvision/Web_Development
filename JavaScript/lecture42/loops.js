@@ -21,7 +21,7 @@ for (let i=5; i>0 ;i--){
 //<------------------------->
 //using break 
 
-for (i=1;i<=5;i++){
+for (let i=1;i<=5;i++){
     if(i==4)
         break;
     else
@@ -32,7 +32,7 @@ for (i=1;i<=5;i++){
 //<------------------------->
 //using continue
 
-for (i=1;i<=4;i++){
+for (let i=1;i<=4;i++){
     if(i==3)
         continue;
     else
