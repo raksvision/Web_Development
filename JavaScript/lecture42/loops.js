@@ -19,3 +19,35 @@ for (let i=5; i>0 ;i--){
 }//prints 5,4,3,2,1
 
 //<------------------------->
+//using break 
+
+for (i=1;i<=5;i++){
+    if(i==4)
+        break;
+    else
+        console.log(i);
+}//Output: 1,2,3
+//it skips the entire loop, when the condition is true
+
+//<------------------------->
+//using continue
+
+for (i=1;i<=4;i++){
+    if(i==3)
+        continue;
+    else
+        console.log(i);
+}//output: 1,2,4
+//it skip that particular iteration, when the condition is true and then move to the next iteration
+
+
+
+
+
+//<------------------------->
+
+
+
+
+
+//<------------------------->
