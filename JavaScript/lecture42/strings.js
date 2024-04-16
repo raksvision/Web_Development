@@ -71,3 +71,21 @@ console.log(desc.split(" "));
 let array = [ 'THIS', 'IS', 'A', 'CODE' ];
 console.log(array.join(" "));
 // THIS IS A CODE
+
+//charAt():
+
+console.log(firstName.charAt(3)); // e
+
+//indexOf():
+// The indexOf() method returns the position of the first occurrence of a value in a string.
+
+// The indexOf() method returns -1 if the value is not found.
+
+// The indexOf() method is case sensitive.
+
+console.log(toLower.indexOf("A")) // 8
+console.log(toLower.indexOf("I")) // 2
+
+//repalce(): /* string.replace(searchValue, newValue) */
+
+console.log(toLower.replace("CODE","VS Code")); // THIS IS A VS Code
