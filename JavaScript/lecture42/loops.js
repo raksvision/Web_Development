@@ -115,3 +115,15 @@ do{
     console.log(j);
     j--;
 }while(j>10)
+
+//<--------------->
+
+let x1 = 1;
+
+do{
+    console.log(x1);
+    x1++;
+}while(x1!=2)
+
+//do while firstly does'nt check the condition 
+//<------------------------>
