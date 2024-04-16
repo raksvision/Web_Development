@@ -1,6 +1,7 @@
 # JavaScript Index 
 
 <h2>lecture39</h2>
+<p>Javscript Sample Programs</p>
 <br>
 <h2>lecture40</h2>
 <ul>
