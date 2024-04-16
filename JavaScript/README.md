@@ -7,3 +7,16 @@
   <li>dataTypes.js</li>
   <li>variables.js</li>
 </ul>
+<br>
+<h2>lecture41</h2>
+<ul>
+  <li>conditionals.js</li>
+  <li>operators.js</li>
+</ul>
+<br>
+<h2>lecture42</h2>
+<ul>
+  <li>loops.js</li>
+  <li>strings.js</li>
+</ul>
+<br>
