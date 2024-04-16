@@ -89,4 +89,29 @@ while(a<=5){
     a++;
 }
 
+//<--------------------------->
+//resverse string in while
+
+let b = 5;
+while(b>0){
+    console.log(b);
+    b--;
+}
+
 //<--------------------->
+
+/* do-while loop */
+
+let a1 = 11;
+do{
+    console.log(a1);
+    a1++;
+}while(a1<=15)
+
+//<---------------------->
+
+let j = 20;
+do{
+    console.log(j);
+    j--;
+}while(j>10)
