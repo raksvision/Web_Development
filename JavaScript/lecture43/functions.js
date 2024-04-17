@@ -86,3 +86,11 @@ let getMsg = function (name){
 console.log(getMsg("Rakesh"));//Hello Rakesh
 
 //<-------------------------->
+
+//Arrow functions
+
+let getExp = (a,b) => {
+    return (a**b);
+}
+
+console.log(getExp(2,10)); //1024
