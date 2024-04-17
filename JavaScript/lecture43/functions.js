@@ -94,6 +94,7 @@ let getExp = (a,b) => {
 }
 
 console.log(getExp(2,10)); //1024
+///<------------------------------------->
 
 let getMutiples = (x) => {
     for (i=1;i<=10;i++){
@@ -102,6 +103,8 @@ let getMutiples = (x) => {
 }
 console.log(getMutiples(2));
 //2x1=2
+
+//<------------------------------------>
 
 let getMutiple = (x) => {
     for (i=1;i<=10;i++){
@@ -125,3 +128,5 @@ getMutiple(2);
 //Here the Diff b/w above two code is,
 //the first code executes only 1 iteration because we used return., this may skip the following iterations
 //but in second code it complte the all the iterations and prints without skiping any iteration 
+
+//<--------------------------->
