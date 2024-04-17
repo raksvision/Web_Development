@@ -10,10 +10,10 @@ sayMyName(); // Rakesh
 
 //conting numbers
 
-function counting(){
+function count(){
     for (let i=1;i<=100;i++){
         console.log(i);
     }
 }
 
-counting();//Output : prints numberr from 1 - 100
+count();//Output : prints numberr from 1 - 100
