@@ -21,3 +21,8 @@
   <li>strings.js</li>
 </ul>
 <br>
+<h2>lecture43</h2>
+<ul>
+  <li>functions.js</li>
+</ul>
+<br>
