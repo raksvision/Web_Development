@@ -37,7 +37,7 @@ for (let i=1;i<=5;i++){
         continue;
     else
         console.log(i);
-}//output: 1,2,4
+}//output: 1,2,4,5
 //it skip that particular iteration, when the condition is true and then move to the next iteration
 
 //<------------------------->
