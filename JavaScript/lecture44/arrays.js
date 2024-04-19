@@ -1,3 +1,5 @@
+/* Object */
+
 let obj = {
     name : "Rakesh",
     age : 23,
@@ -10,4 +12,7 @@ let obj = {
 }
 
 console.log(obj);
-obj.work();
+obj.work();//Iam Going to Work
+console.log(typeof(obj));// object
+
+//<---------------------------->
