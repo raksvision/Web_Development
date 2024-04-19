@@ -56,3 +56,23 @@ console.log(array); // removes the last element from the array
 //.shift() : removes the first element from the array
 arr1.shift("Bestha");
 console.log(arr1);
+
+//<------------------>
+//.unshift() : adds elements at the starting of the array
+
+arr1.unshift("CharanSai")
+console.log(arr1);
+
+//<---------------------->
+//.slice(stratIndex, endIndex)
+console.log(array.slice(0,2));//[ 'Rakesh', true ]
+
+//<-------------------->
+//.splice(index,howMany,values to replace)
+
+array.splice(1,2, 45 ,41);
+console.log(array); //[ 'Rakesh', 45, 41 ]
+
+
+console.log(array.splice(0,"Splice", 65));
+//<---------------->
