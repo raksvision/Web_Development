@@ -128,7 +128,16 @@ let list = [10,20,"Rakesh","Charan", null];
 let strArr = list.filter((value) => {
     return (typeof(value) === "string"); // here loose equality(==) does not works
 });
+let numArr = list.filter((value) => {
+    return (typeof(value) === "number"); 
+});
+let Arr = list.filter((value) => {
+    return (typeof(value) === "null"); 
+});
 
+
+console.log(Arr);//[]
+console.log(numArr);// [ 10, 20 ]
 console.log(strArr);// [ 'Rakesh', 'Charan' ]
 
 //<------------------------------>
