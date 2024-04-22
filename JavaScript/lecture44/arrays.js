@@ -107,3 +107,32 @@ let arrIndex = array1.map((num,index) =>{
 */
 
 ////<------------------------>
+
+/* filter(): */
+
+let array2 = [1,2,3,4,5,6];
+let filtArray = array2.filter((num) => {
+    return num%2 == 0;
+});
+
+console.log(filtArray); // [ 2, 4, 6 ]
+
+let oddArray = array2.filter((num) => {
+    return (num % 2 == 1);
+});
+
+console.log(oddArray);// [ 1, 3, 5 ]
+
+let list = [10,20,"Rakesh","Charan", null];
+
+let strArr = list.filter((value) => {
+    return (typeof(value) === "string");
+});
+
+console.log(strArr);// [ 'Rakesh', 'Charan' ]
+
+//<------------------------------>
+
+
+
+//<---------------------------------->
