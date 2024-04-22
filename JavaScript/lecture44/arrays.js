@@ -174,7 +174,15 @@ console.log(number.indexOf(3)); //5
 console.log(number.indexOf(4)); //4
 
 //<---------------------------------->
+/* find() */
 
+let age = [16,21,25,31];
+
+let checkAge = age.find((Age) => {
+    return Age >= 26;
+});
+
+console.log(checkAge); // 31
 
 //<---------------------------------->
 
