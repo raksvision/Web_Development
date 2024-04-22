@@ -169,7 +169,9 @@ console.log(number); // [1, 3, 4, 5,6, 7, 9]
 number.reverse();
 console.log(number); // [9, 7, 6, 5,4, 3, 1]
 
-number.indexOf(6)
+console.log(number.indexOf(6)); //2
+console.log(number.indexOf(3)); //5
+console.log(number.indexOf(4)); //4
 
 //<---------------------------------->
 
