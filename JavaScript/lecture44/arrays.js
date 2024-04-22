@@ -76,3 +76,34 @@ console.log(array); //[ 'Rakesh', 45, 41 ]
 
 console.log(array.splice(0,"Splice", 65));
 //<---------------->
+
+//map()
+
+let array1 = [10,20,30,40];
+
+let multiAns = array1.map((num) => {
+    return num *num;
+})
+console.log(multiAns); //[ 100, 400, 900, 1600 ]
+
+//also we can print the index of the value in the array
+
+let arrIndex = array1.map((num,index) =>{
+    console.log(num);
+    console.log(index);
+})
+
+/* Output */
+
+/*
+10
+0
+20
+1
+30
+2
+40
+3
+*/
+
+////<------------------------>
