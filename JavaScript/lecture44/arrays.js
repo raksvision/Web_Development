@@ -152,8 +152,24 @@ let ans = ls.reduce((acc,curr) =>{
 console.log(ans); // 100
 
 //<---------------------------------->
+/* sort() */
 
+let fruits = ["Pineapple", "Mango", "Grapes", "Orange"];
+fruits.sort()  //["Grapes", "Mango", "Orange", "Pineapple"]
+fruits.reverse(); // ["Pineapple", "Orange", "Mango", "Grapes"]
 
+console.log(fruits);
+
+//<-------------------------------->
+
+let number = [1,5,7,9,3,4,6]
+
+number.sort();
+console.log(number); // [1, 3, 4, 5,6, 7, 9]
+number.reverse();
+console.log(number); // [9, 7, 6, 5,4, 3, 1]
+
+number.indexOf(6)
 
 //<---------------------------------->
 
