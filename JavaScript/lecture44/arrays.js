@@ -126,7 +126,7 @@ console.log(oddArray);// [ 1, 3, 5 ]
 let list = [10,20,"Rakesh","Charan", null];
 
 let strArr = list.filter((value) => {
-    return (typeof(value) === "string");
+    return (typeof(value) === "string"); // here loose equality(==) does not works
 });
 
 console.log(strArr);// [ 'Rakesh', 'Charan' ]
