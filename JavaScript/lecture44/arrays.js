@@ -205,4 +205,4 @@ function getSum(array3){
 
 };
 
-console.log(getSum(array3));
+console.log(getSum(array3)); //150
