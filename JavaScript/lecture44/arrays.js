@@ -190,3 +190,19 @@ console.log(checkAge); // 31
 
 
 //<---------------------------------->
+
+/* Arrays with Functions */
+
+let array3 = [10,20,30,40,50];
+
+function getSum(array3){
+    let len = array3.length;
+    let sum = 0;
+    for (let i =0; i< len ; i++){
+        sum = sum + array3[i];
+    }
+    return sum;
+
+};
+
+console.log(getSum(array3));
