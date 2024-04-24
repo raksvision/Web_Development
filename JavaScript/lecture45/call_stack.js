@@ -60,3 +60,25 @@ console.log(ans(10)) //then, here it enter into another return statement and giv
 //100
 //<-------------------------->
 
+//4. using in Data Structure:
+
+const arr = [
+    function(a,b){
+        return a+b;
+    }, //index [0]
+    function(a,b){
+        return a-b;
+    },//index [1]
+    function(a,b){
+        return a*b;
+    }//index [2]
+];
+
+let sum = arr[0];
+let sub = arr[1];
+let multi = arr[2];
+console.log(sum(5,15));//20
+console.log(sub(25,8));//17
+console.log(multi(7,12));//84
+
+
