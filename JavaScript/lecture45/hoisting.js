@@ -26,6 +26,23 @@ var age = 23;
 // const name1 = "Rakesh";
 //ReferenceError: Cannot access 'name1' before initialization
 
-console.log(lName);
-let lName = "Bestha"
+// console.log(lName);
+// let lName = "Bestha"
 //ReferenceError: Cannot access 'lName' before initialization
+
+//<------------------------------------>
+
+//2. by using function expression
+
+// sayHello();
+// let sayHello = function () {
+//     console.log("Hello Everyone!");
+// }
+
+//ReferenceError: Cannot access 'sayHello' before initialization 
+
+const obj1 = new Human();
+class Human{
+    
+};
+//ReferenceError: Cannot access 'Human' before initialization 
