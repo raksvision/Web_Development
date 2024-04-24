@@ -26,3 +26,14 @@
   <li>functions.js</li>
 </ul>
 <br>
+<h2>lecture44</h2>
+<ul>
+  <li>arrays.js</li>
+  <li>diff_loops.js</li>
+</ul>
+<br>
+<h2>lecture45</h2>
+<ul>
+  <li>call_stack.js</li>
+</ul>
+<br>
