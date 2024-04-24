@@ -60,7 +60,7 @@ console.log(ans(10)) //then, here it enter into another return statement and giv
 //100
 //<-------------------------->
 
-//4. using in Data Structure:
+//4. using in Data Structure: as an Array
 
 const arr = [
     function(a,b){
@@ -80,5 +80,24 @@ let multi = arr[2];
 console.log(sum(5,15));//20
 console.log(sub(25,8));//17
 console.log(multi(7,12));//84
+
+//<---------------------------->
+
+//5. using as object properties:
+
+let obj = {
+    age : 23,
+    height : 180,
+    weight : 75,
+    wish : () =>{
+        console.log("Happy BirthDay!")
+    }
+}
+
+console.log(obj.age); //23
+
+obj.wish(); //Happy BirthDay!
+
+//<------------------------->
 
 
