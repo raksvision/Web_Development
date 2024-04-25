@@ -35,5 +35,12 @@
 <h2>lecture45</h2>
 <ul>
   <li>call_stack.js</li>
+  <li>hoisting.js</li>
+</ul>
+<br>
+<h2>lecture46</h2>
+<ul>
+  <li>variable_scoping.js</li>
+  <li>hoisting.js</li>
 </ul>
 <br>
