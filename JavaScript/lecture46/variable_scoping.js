@@ -1,4 +1,4 @@
-//Global Value 
+//Global scope: 
 
 var age = 23;
 
@@ -22,7 +22,15 @@ function sayHello(){
     console.log("Hello ", age );
 }
 
-sayHello();
+sayHello();//Hello 23
 
 
 
+//Function scope:
+console.log(fullName);
+function sayGreet(){
+    let fullName = "Rakesh";
+    console.log("Hi! ",fullName);
+}
+
+sayGreet();//Hi!  Rakesh
