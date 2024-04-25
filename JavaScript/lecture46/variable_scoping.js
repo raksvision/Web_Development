@@ -24,13 +24,38 @@ function sayHello(){
 
 sayHello();//Hello 23
 
-
+//<------------------------------>
 
 //Function scope:
-console.log(fullName);
+//console.log(fullName); //ReferenceError
 function sayGreet(){
     let fullName = "Rakesh";
     console.log("Hi! ",fullName);
 }
 
 sayGreet();//Hi!  Rakesh
+
+
+//<-------------------------->
+
+//Block Scope
+
+{
+    var num = 65;
+}
+console.log(num); //65
+
+{
+    let book = "Dream";
+}
+
+//console.log(book);//ReferenceError
+
+{
+    const val = "love";
+
+}
+
+console.log(val);//ReferenceError
+
+//<------------------------->
