@@ -79,9 +79,18 @@ function sayName(fName,lName){
 sayName();
 //My Name is: undefined undefined
 
+
+
 function fullName(fName = "Rakesh",lName = "Bestha"){
     console.log(`My Name is: ${fName} ${lName}`);
 }
+
+fullName(null);
+//null Bestha
+
+fullName(undefined);
+//Rakesh Bestha
+
 
 fullName();
 //My Name is: Rakesh Bestha
@@ -99,8 +108,42 @@ function myName(fName = "Rakesh",lName = fName.toUpperCase()){
 myName();
 //My Name is: Rakesh RAKESH
 
+
+
+myName(undefined);
+//
+
 myName("Charan")
 //My Name is: Charan CHARAN
 
 myName("Sainath","Dasari")
 //My Name is: Sainath Dasari
+
+//Default value references can be object values
+function solve(value = {name : "Rakesh", age : 23}){
+    console.log("Default values:",value);
+}
+
+solve();
+//Default values: { name: 'Rakesh', age: 23 }
+
+//Default value references can be array values
+
+function solveArr(value = ["Rakesh",23,184]){
+    console.log("Default values:",value);
+}
+
+solveArr();
+//Default values: [ 'Rakesh', 23, 184 ]
+
+//Default value references can be functions
+
+function getAge(){
+    return 25;
+}
+
+function utility(name = "Rakesh",age = getAge()){
+    console.log("Name:",name,"","Age:",age);
+}
+
+utility();//Name: Rakesh  Age: 25
