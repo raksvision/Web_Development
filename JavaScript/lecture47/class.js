@@ -47,3 +47,23 @@ console.log(student.getName);//Rakesh
 student.setName = "Sainath";
 
 console.log(student.firstName);//Sainath
+
+//<-------------------------------->
+
+/* constructors */
+
+class Person{
+    constructor(name){
+        this.name = name;
+    }
+    introduce(){
+        console.log(`Hello!, My Name is ${this.name}`);
+    }
+}
+
+let greet = new Person("Rakesh");
+
+greet.introduce();
+//Hello!, My Name is Rakesh
+
+//<----------------------------------->
