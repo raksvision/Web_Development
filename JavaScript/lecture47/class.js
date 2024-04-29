@@ -67,3 +67,40 @@ greet.introduce();
 //Hello!, My Name is Rakesh
 
 //<----------------------------------->
+
+
+
+//default values in functions
+
+function sayName(fName,lName){
+    console.log(`My Name is: ${fName} ${lName}`);
+}
+
+sayName();
+//My Name is: undefined undefined
+
+function fullName(fName = "Rakesh",lName = "Bestha"){
+    console.log(`My Name is: ${fName} ${lName}`);
+}
+
+fullName();
+//My Name is: Rakesh Bestha
+
+fullName("Charan","Teja")
+//My Name is: Charan Teja
+
+fullName("Charan")
+//My Name is: Charan Bestha
+
+function myName(fName = "Rakesh",lName = fName.toUpperCase()){
+    console.log(`My Name is: ${fName} ${lName}`);
+}
+
+myName();
+//My Name is: Rakesh RAKESH
+
+myName("Charan")
+//My Name is: Charan CHARAN
+
+myName("Sainath","Dasari")
+//My Name is: Sainath Dasari
