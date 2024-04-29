@@ -44,3 +44,9 @@
   <li>hoisting.js</li>
 </ul>
 <br>
+<h2>lecture46</h2>
+<ul>
+  <li>class.js</li>
+</ul>
+<br>
+
