@@ -1,7 +1,10 @@
+/* Object Cloning */
+
+//spread operator(...)
 let person = {
     name:"Rakesh",
     age:23,
-    mobile:"Realme"
+    mobile:"Realme",
 };
 
 let person1 ={...person};
@@ -9,5 +12,23 @@ let person1 ={...person};
 person1.name = "Sai";
 person1.mobile = "Redmi";
 
-console.log(person);
-console.log(person1);
+console.log(person);//{ name: 'Rakesh', age: 23, mobile: 'Realme' }
+
+console.log(person1);//{ name: 'Sai', age: 23, mobile: 'Redmi' }    
+
+
+
+//assign
+let captial ={
+    AP : "Vizag",
+    Tel : "Hyderabad",
+    Kar : "Banglore"
+}
+
+let captial1 = Object.assign({},captial);
+
+captial1.AP = "Kurnool";
+
+console.log(captial);//{ AP: 'Vizag', Tel: 'Hyderabad', Kar: 'Banglore' }
+
+console.log(captial1);//{ AP: 'Kurnool', Tel: 'Hyderabad', Kar: 'Banglore' }
