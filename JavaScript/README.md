@@ -49,4 +49,18 @@
   <li>class.js</li>
 </ul>
 <br>
-
+<h2>lecture48</h2>
+<ul>
+  <li>inBuiltObjects.js</li>
+</ul>
+<br>
+<h2>lecture49</h2>
+<ul>
+  <li>objectCloning.js</li>
+</ul>
+<br>
+<h2>lecture50</h2>
+<ul>
+  <li>errorHangling.js</li>
+</ul>
+<br>
