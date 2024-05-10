@@ -1,2 +1,2 @@
-# Web Development
-<p>This is my Web Development Journey, started from Love-Babber's Codehelp Tutorials.</p>
+# MERN Stack
+<p>This is my MERN Journey, started from Love-Babber's Codehelp Tutorials.</p>
